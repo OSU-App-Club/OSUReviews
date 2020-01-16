@@ -1,10 +1,10 @@
 # OSUReviews
 
 # Members
-Dannon Gilbert
-Yihao Wu
-Zhihui Liu
-Aeijan Bajracharya
+- Dannon Gilbert
+- Yihao Wu
+- Zhihui Liu
+- Aeijan Bajracharya
 
 # Install Instructions
 ```
