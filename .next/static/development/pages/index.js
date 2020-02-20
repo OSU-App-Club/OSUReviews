@@ -1,5 +1,42 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
+/***/ "./components/Searchbox/Searchbox.js":
+/*!*******************************************!*\
+  !*** ./components/Searchbox/Searchbox.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return index; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\Paul Lim\\code\\appclub\\OSUReviews\\components\\Searchbox\\Searchbox.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function index() {
+  return __jsx("input", {
+    style: searchbox,
+    placeholder: "Search classes or professors",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  });
+}
+var searchbox = {
+  padding: 8,
+  background: '#f5f5f5',
+  borderRadius: 8,
+  width: 300,
+  appearance: 'none',
+  border: '1px solid rgb(166, 166, 166)'
+};
+
+/***/ }),
+
 /***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5Cappclub%5COSUReviews%5Cpages%5Cindex.js!./":
 /*!***************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5Cappclub%5COSUReviews%5Cpages%5Cindex.js ***!
@@ -43,35 +80,35 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return index; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Searchbox_Searchbox__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Searchbox/Searchbox */ "./components/Searchbox/Searchbox.js");
 var _jsxFileName = "C:\\Users\\Paul Lim\\code\\appclub\\OSUReviews\\pages\\index.js";
+
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-function index() {
-  return __jsx("input", {
-    style: searchbox,
-    placeholder: "Search classes or professors",
+
+var Index = function Index() {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, __jsx(_components_Searchbox_Searchbox__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  });
-}
-var searchbox = {
-  padding: 8,
-  background: '#f5f5f5',
-  borderRadius: 8,
-  width: 300,
-  appearance: 'none',
-  border: '1px solid rgb(166, 166, 166)'
+  }));
 };
+
+/* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5Cappclub%5COSUReviews%5Cpages%5Cindex.js ***!
   \*******************************************************************************************************************************************/
@@ -94,5 +131,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
