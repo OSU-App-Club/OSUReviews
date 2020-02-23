@@ -12,28 +12,52 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return index; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Searchbox_Searchbox_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Searchbox/Searchbox.css */ "./components/Searchbox/Searchbox.css");
+/* harmony import */ var _Searchbox_Searchbox_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Searchbox_Searchbox_css__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "C:\\Users\\Paul Lim\\code\\appclub\\OSUReviews\\components\\Searchbox\\Searchbox.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+
 function index() {
-  return __jsx("input", {
-    style: searchbox,
+  var data = [{
+    title: 'CS 162',
+    professor: 'Brandilyn Coker'
+  }, {
+    title: 'CS 271',
+    professor: 'Paris Kalathas'
+  }];
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx("input", {
+    className: "searchbox",
     placeholder: "Search classes or professors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 19
     },
     __self: this
-  });
+  }), __jsx("div", {
+    className: "searchResultParent",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, data.map(function (data) {
+    return __jsx("div", {
+      className: "searchResult",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }, data.title, " ", data.professor);
+  })));
 }
-var searchbox = {
-  padding: 8,
-  background: '#f5f5f5',
-  borderRadius: 8,
-  width: 300,
-  appearance: 'none',
-  border: '1px solid rgb(166, 166, 166)'
-};
 
 /***/ }),
 
@@ -108,7 +132,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5Cappclub%5COSUReviews%5Cpages%5Cindex.js ***!
   \*******************************************************************************************************************************************/
@@ -131,5 +155,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

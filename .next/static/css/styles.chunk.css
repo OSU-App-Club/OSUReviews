@@ -1,0 +1,23 @@
+.searchbox {
+    font-size: 20px;
+    padding: 8px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    border: 1px solid rgb(166, 166, 166) !important;
+    width: 270px;
+}
+
+.searchResultParent {
+      display: flex;
+      flex-direction: column;
+}
+  
+.searchResult {
+    background: '#f5f5f5';
+    width: 300;
+    border-radius: 8;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.chunk.css.map*/
