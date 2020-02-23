@@ -20,16 +20,18 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function index() {
   var data = [{
-    title: 'CS 162',
-    professor: 'Brandilyn Coker'
+    name: 'CS 162',
+    professor: 'Brandilyn Coker',
+    rating: '3.0'
   }, {
-    title: 'CS 271',
-    professor: 'Paris Kalathas'
+    name: 'CS 271',
+    professor: 'Paris Kalathas',
+    rating: '1.0'
   }];
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 20
     },
     __self: this
   }, __jsx("input", {
@@ -37,14 +39,14 @@ function index() {
     placeholder: "Search classes or professors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 21
     },
     __self: this
   }), __jsx("div", {
     className: "searchResultParent",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 22
     },
     __self: this
   }, data.map(function (data) {
@@ -52,10 +54,38 @@ function index() {
       className: "searchResult",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 24
       },
       __self: this
-    }, data.title, " ", data.professor);
+    }, __jsx("div", {
+      className: "searchResultColumn",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "searchResultProfessor",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, data.professor), __jsx("div", {
+      className: "searchResultName",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }, data.name)), __jsx("div", {
+      className: "searchResultRating",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, data.rating));
   })));
 }
 

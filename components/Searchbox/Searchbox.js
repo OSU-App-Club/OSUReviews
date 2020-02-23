@@ -5,12 +5,14 @@ export default function index() {
 
     const data = [
         {
-            title: 'CS 162',
-            professor: 'Brandilyn Coker'
+            name: 'CS 162',
+            professor: 'Brandilyn Coker',
+            rating: '3.0'
         },
         {
-            title: 'CS 271',
-            professor: 'Paris Kalathas'
+            name: 'CS 271',
+            professor: 'Paris Kalathas',
+            rating: '1.0'
         }
     ]; 
 
@@ -20,7 +22,11 @@ export default function index() {
         <div className="searchResultParent">
             {data.map((data) => 
             <div className="searchResult">
-                {data.title} {data.professor}
+                <div className="searchResultColumn">
+                    <div className="searchResultProfessor">{data.professor}</div>
+                    <div className="searchResultName">{data.name}</div> 
+                </div>
+                <div className="searchResultRating">{data.rating}</div>
             </div>
             )}
         </div>

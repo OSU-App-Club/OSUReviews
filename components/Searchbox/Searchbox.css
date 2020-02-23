@@ -1,21 +1,45 @@
 .searchbox {
-    font-size: 20px;
+    font-size: 30px;
     padding: 8px;
     background: #f5f5f5;
     border-radius: 8px;
     border: 1px solid rgb(166, 166, 166) !important;
-    width: 270px;
+    width: 400px;
 }
 
 .searchResultParent {
       display: flex;
       flex-direction: column;
 }
+
+.searchResult:hover {
+    background: #d8d8d8;
+}
   
 .searchResult {
-    background: '#f5f5f5';
-    width: 300;
-    border-radius: 8;
+    display: flex;
+    font-size: 20px;
+    background: #f5f5f5;
+    width: 400px;
+    border-radius: 8px;
     padding: 4px 8px;
     cursor: pointer;
+}
+
+.searchResultColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchResultProfessor {
+    font-weight: 700px;
+}
+
+.searchResultName {
+    font-size: 12px;
+}
+
+.searchResultRating {
+    margin-left: auto;
+    align-self: center;
 }
