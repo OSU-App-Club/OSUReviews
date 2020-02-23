@@ -5,6 +5,7 @@
 - Yihao Wu
 - Zhihui Liu
 - Aeijan Bajracharya
+- Paul Lim
 
 # Install Instructions
 ```
