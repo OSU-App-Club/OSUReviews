@@ -1,9 +1,10 @@
 .searchbox {
+    height: 50px;
+    padding: 0 10px;
     font-size: 30px;
-    padding: 8px;
     background: #f5f5f5;
-    border-radius: 8px;
-    border: 1px solid rgb(166, 166, 166) !important;
+    border-radius: 6px;
+    border: 1px solid #cfcfcf !important;
     width: 400px;
 }
 
@@ -18,12 +19,17 @@
   
 .searchResult {
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
     background: #f5f5f5;
+    padding: 0 10px;
     width: 400px;
-    border-radius: 8px;
-    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid #cfcfcf !important;
+    height: 50px;
     cursor: pointer;
+    color: #303030;
 }
 
 .searchResultColumn {

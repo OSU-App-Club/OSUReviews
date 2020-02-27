@@ -14,16 +14,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Searchbox_Searchbox_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Searchbox/Searchbox.css */ "./components/Searchbox/Searchbox.css");
 /* harmony import */ var _Searchbox_Searchbox_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Searchbox_Searchbox_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Paul Lim\\code\\appclub\\OSUReviews\\components\\Searchbox\\Searchbox.js";
+var _jsxFileName = "C:\\Users\\Paul Lim\\code\\OSUReviews\\components\\Searchbox\\Searchbox.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 function index() {
   var data = [{
+    id: '1',
     name: 'CS 162',
     professor: 'Brandilyn Coker',
     rating: '3.0'
   }, {
+    id: '2',
     name: 'CS 271',
     professor: 'Paris Kalathas',
     rating: '1.0'
@@ -31,7 +33,7 @@ function index() {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 22
     },
     __self: this
   }, __jsx("input", {
@@ -39,50 +41,51 @@ function index() {
     placeholder: "Search classes or professors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 23
     },
     __self: this
   }), __jsx("div", {
     className: "searchResultParent",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 24
     },
     __self: this
   }, data.map(function (data) {
     return __jsx("div", {
       className: "searchResult",
+      key: data.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 26
       },
       __self: this
     }, __jsx("div", {
       className: "searchResultColumn",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 27
       },
       __self: this
     }, __jsx("div", {
       className: "searchResultProfessor",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 28
       },
       __self: this
     }, data.professor), __jsx("div", {
       className: "searchResultName",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27
+        lineNumber: 29
       },
       __self: this
     }, data.name)), __jsx("div", {
       className: "searchResultRating",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29
+        lineNumber: 31
       },
       __self: this
     }, data.rating));
@@ -91,10 +94,10 @@ function index() {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5Cappclub%5COSUReviews%5Cpages%5Cindex.js!./":
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5Cappclub%5COSUReviews%5Cpages%5Cindex.js ***!
-  \***************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5COSUReviews%5Cpages%5Cindex.js!./":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5COSUReviews%5Cpages%5Cindex.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -137,7 +140,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Searchbox_Searchbox__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Searchbox/Searchbox */ "./components/Searchbox/Searchbox.js");
-var _jsxFileName = "C:\\Users\\Paul Lim\\code\\appclub\\OSUReviews\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Paul Lim\\code\\OSUReviews\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -163,13 +166,13 @@ var Index = function Index() {
 /***/ }),
 
 /***/ 0:
-/*!*******************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5Cappclub%5COSUReviews%5Cpages%5Cindex.js ***!
-  \*******************************************************************************************************************************************/
+/*!*********************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5COSUReviews%5Cpages%5Cindex.js ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5Cappclub%5COSUReviews%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5Cappclub%5COSUReviews%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5COSUReviews%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CPaul%20Lim%5Ccode%5COSUReviews%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
