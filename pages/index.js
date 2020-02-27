@@ -1,6 +1,6 @@
 import Header from '../components/Header/Header.js';
 import Head from 'next/head';
-import Searcbox from '../components/Searchbox/Searchbox.js';
+import Searchbox from '../components/Searchbox/Searchbox.js';
 import './index.css';
 
 const Index = () => (
