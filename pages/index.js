@@ -1,5 +1,6 @@
 import Header from '../components/Header/Header.js';
 import Head from 'next/head';
+import Searcbox from '../components/Searchbox/Searchbox.js';
 import './index.css';
 
 const Index = () => (
@@ -11,6 +12,7 @@ const Index = () => (
       />
     </Head>
     <Header />
+    <Searchbox />
   </div>
 );
 
