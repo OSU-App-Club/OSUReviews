@@ -1,6 +1,16 @@
+import Header from '../components/Header/Header.js';
+import Head from 'next/head';
+import './index.css';
+
 const Index = () => (
   <div>
-    <p>Hello Next.js</p>
+    <Head>
+      <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+        rel="stylesheet"
+      />
+    </Head>
+    <Header />
   </div>
 );
 
