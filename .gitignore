@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 node_modules
+=======
+node_modules
+.next/
+>>>>>>> 38949e86760fb75fd482499fecffe739de77a5f9
