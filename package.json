@@ -1,33 +1,3 @@
-<<<<<<< HEAD
-{
-  "name": "OSUReviews",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dangilbertOSU/OSUReviews.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dangilbertOSU/OSUReviews/issues"
-  },
-  "homepage": "https://github.com/dangilbertOSU/OSUReviews#readme",
-  "dependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "next": "^9.2.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  }
-}
-=======
 {
   "name": "osu-reviews",
   "version": "1.0.0",
@@ -56,4 +26,3 @@
     "react-dom": "^16.12.0"
   }
 }
->>>>>>> 38949e86760fb75fd482499fecffe739de77a5f9
