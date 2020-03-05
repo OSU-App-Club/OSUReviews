@@ -47,9 +47,9 @@ const Header = (props) => {
                     onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 >
                     <svg width="42" height="32" viewBox="0 0 42 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <line className="top_line" y1="2" x2="42" y2="2" stroke="black" stroke-width="4" />
-                        <line className="middle_line" y1="16" x2="42" y2="16" stroke="black" stroke-width="4" />
-                        <line className="bottom_line" y1="30" x2="42" y2="30" stroke="black" stroke-width="4" />
+                        <line className="top_line" y1="2" x2="42" y2="2" stroke="black" strokeWidth="4" />
+                        <line className="middle_line" y1="16" x2="42" y2="16" stroke="black" strokeWidth="4" />
+                        <line className="bottom_line" y1="30" x2="42" y2="30" stroke="black" strokeWidth="4" />
                     </svg>
                 </button>
                 {mobileMenuOpen && Drawer}
