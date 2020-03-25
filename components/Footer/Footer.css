@@ -1,0 +1,80 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+/* .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+} */
+
+/* .main-footer{
+    color: white;
+    background-color: #dc3545;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}  */
+
+.footer {
+  background: black;
+  color: white;
+  height: 300px;
+}
+
+.footer .footer-content {
+  height: 250px;
+  display: flex;
+}
+
+.footer .footer-content .footer-section {
+  flex: 1;
+  padding: 25px;
+}
+
+.footer .footer-content h1,
+.footer .footer-content h2 {
+  color: white;
+}
+
+.footer .footer-content .about h1 span {
+  color: #dc4405;
+}
+
+.footer .footer-content .links ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer .footer-content .links ul a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+.footer .footer-content .links ul a:hover {
+  color: #dc4405;
+  margin-left: 15px;
+  transition: all .3s;
+}
+
+.footer .footer-bottom {
+  background: #dc4405;
+  /* bottom: 0px; */
+  color: white;
+  height: 50px;
+  /* left: 0px; */
+  padding-top: 20px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
