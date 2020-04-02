@@ -1,0 +1,33 @@
+{
+  "name": "react-custom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "proxy": "https://localhost:5000",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.1",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "html-loader": "^1.0.0",
+    "style-loader": "^1.1.3"
+  }
+}

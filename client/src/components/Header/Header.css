@@ -1,0 +1,112 @@
+.black_text {
+    color: black;
+}
+
+.header {
+    background: linear-gradient(233.89deg, #DC4405 1.55%, #E17446 98.65%);
+    box-sizing: border-box;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.2rem;
+    padding: 0 2rem 0 2rem;
+    height: 7rem;
+    width: 100%;
+}
+
+.header > * {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+
+.header__right {
+    justify-self: end;
+}
+
+.header__right > * {
+    margin-right: 1rem;
+}
+
+.header__right__mobile {
+    display: none;
+    justify-self: end;
+}
+
+.header__right__mobile button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 3.5rem;
+    margin-top: -0.5rem;
+    padding: 0;
+}
+
+.header__mobile__drawer {
+    background-color: rgba(225, 116, 70, 1);
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.header__mobile__drawer > * {
+    transition: all 0.2s;
+    padding: 1rem;
+}
+
+.header__mobile__drawer > *:not(:first-child):hover {
+    background-color: rgb(191, 91, 49);
+}
+
+.header__mobile__drawer__first {
+    margin-top: 4rem;
+}
+
+.header__mobile__drawer button {
+    color: white;
+    right: 1rem;
+    position: absolute;
+    top: 1rem;
+}
+
+.open .middle_line {
+    animation-name: fade-out;
+    animation-duration: 0.2s;
+    opacity: 0;
+}
+
+.open .top_line {
+    transform: rotate(45deg);
+    transform-origin: top left;
+}
+
+.open .bottom_line {
+    transform: rotate(-45deg);
+    transform-origin: bottom left;
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .header {
+        height: 5rem;
+    }
+
+    .header__right__mobile {
+        align-items: center;
+        display: flex;
+    }
+
+    .header__right {
+        display: none;
+    }
+}
