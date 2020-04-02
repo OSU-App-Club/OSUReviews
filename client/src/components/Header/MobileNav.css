@@ -1,0 +1,30 @@
+.mobile_nav {
+    background: linear-gradient(233.89deg, #DC4405 1.55%, #E17446 98.65%);
+    text-align: center;
+    width: 100%;
+}
+
+.mobile_nav > *:not(:first-child) {
+    height: auto;
+    transition: all 0.2s;
+}
+
+.mobile_nav > *:not(:first-child):hover {
+    background-color: black;
+    color: white;
+}
+
+.mobile_nav > *:first-child{
+    height: 3rem;
+}
+
+.exit__button {
+    padding: 1rem;
+    position: relative;
+}
+
+.exit__button span {
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+}
