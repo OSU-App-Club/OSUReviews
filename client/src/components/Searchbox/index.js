@@ -21,27 +21,6 @@ export default function Searchbox() {
             rating: '1.0'
         }
     ];
-    
-
-    // const callBackendAPI = async () => {
-    //     const response = await fetch('/api/search', {
-    //         method: 'GET',
-    //         headers: {
-    //             'Content-Type': 'application/json'
-    //         }
-    //     });
-
-    //     const body = await response.json();
-    //     return body; 
-    // }
-
-    // useEffect(() => {
-    //     callBackendAPI()
-    //         .then(res => {
-    //             res.status === 200 && console.log('cool')
-    //         })
-    //         .catch(err => console.error(err));
-    // }, []);
 
     const handleChange = ({ target: { value } }) => {
         setSearchValue(value);
