@@ -1,5 +1,12 @@
 .container {
-    min-height: 100vh;
+    /* header is 64.5 px */
+    min-height: calc(100vh - 64.5px);
 }
 
-/* header is 64.5 px */
+.center-item {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}   

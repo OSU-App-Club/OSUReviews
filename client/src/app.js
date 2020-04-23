@@ -9,7 +9,9 @@ const App = () => {
         <div>
             <Header />
             <div class="container">
-                <Searchbox />
+                <div class="center-item">
+                    <Searchbox />
+                </div>
             </div>
         </div>
     )
