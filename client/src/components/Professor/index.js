@@ -11,7 +11,12 @@ const Professor = (props) => {
             "quality": 5.0,
             "difficulty": 3.4,
             "date": "04/20/2020",
-            "likes": 0
+            "likes": 0,
+            "course": "CS 325",
+            "grade": "B",
+            "cost of materials": 60,
+            "attendance required": true,
+            "would take again": true
         },
         {
             "id": 2,
@@ -19,7 +24,12 @@ const Professor = (props) => {
             "quality": 2.0,
             "difficulty": 5.0,
             "date": "04/10/2020",
-            "likes": 2
+            "likes": 2,
+            "course": "CS 444",
+            "grade": "C",
+            "cost of materials": 300,
+            "attendance required": false,
+            "would take again": false
         }
     ]
 
