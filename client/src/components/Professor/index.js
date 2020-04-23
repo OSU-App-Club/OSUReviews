@@ -1,20 +1,25 @@
 import React from 'react';
 import './professor.css';
+import Review from './Review';
 
 const Professor = (props) => {
 
     const reviews = [
         {
+            "id": 1,
             "message": "This professor is pretty good",
-            "rating": 5,
-            "difficulty": 5,
-            "date": "04/20/2020"
+            "quality": 5.0,
+            "difficulty": 3.4,
+            "date": "04/20/2020",
+            "likes": 0
         },
         {
+            "id": 2,
             "message": "He made his class way too hard",
-            "rating": 2,
-            "difficulty": 5,
-            "date": "04/10/2020"
+            "quality": 2.0,
+            "difficulty": 5.0,
+            "date": "04/10/2020",
+            "likes": 2
         }
     ]
 
@@ -30,14 +35,7 @@ const Professor = (props) => {
             {
                 reviews.map(review => {
                     return (
-                        <div class="review">
-                            <p>{review.message}</p>
-                            <p><span class="bold">Rating:</span> {review.rating} / 5</p>
-                            <p><span class="bold">Difficulty:</span> {review.difficulty} / 5</p>
-                            <span class="review-date"> 
-                                <p>{review.date}</p>
-                            </span>
-                        </div>
+                        <Review key={review.id} review={review} />
                     )
                 })
             }

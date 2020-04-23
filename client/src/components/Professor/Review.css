@@ -1,0 +1,17 @@
+.review {
+    display: flex;
+    padding: 10px;
+}
+
+.ratings {
+    font-weight: 700;
+}
+
+.ratings > div {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.message {
+}
