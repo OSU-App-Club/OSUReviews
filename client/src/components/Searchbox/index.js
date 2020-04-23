@@ -19,6 +19,84 @@ export default function Searchbox() {
             name: 'CS 271',
             professor: 'Paris Kalathas',
             rating: '1.0'
+        },
+        {
+            id: '3',
+            name: 'CS 162',
+            professor: 'Brandilyn Coker',
+            rating: '3.0'
+        },
+        {
+            id: '4',
+            name: 'CS 271',
+            professor: 'Paris Kalathas',
+            rating: '1.0'
+        },
+        {
+            id: '5',
+            name: 'CS 162',
+            professor: 'Brandilyn Coker',
+            rating: '3.0'
+        },
+        {
+            id: '21',
+            name: 'CS 162',
+            professor: 'Brandilyn Coker',
+            rating: '3.0'
+        },
+        {
+            id: '22',
+            name: 'CS 271',
+            professor: 'Paris Kalathas',
+            rating: '1.0'
+        },
+        {
+            id: '32',
+            name: 'CS 162',
+            professor: 'Brandilyn Coker',
+            rating: '3.0'
+        },
+        {
+            id: '24',
+            name: 'CS 271',
+            professor: 'Paris Kalathas',
+            rating: '1.0'
+        },
+        {
+            id: '25',
+            name: 'CS 162',
+            professor: 'Brandilyn Coker',
+            rating: '3.0'
+        },
+        {
+            id: '11',
+            name: 'CS 162',
+            professor: 'Brandilyn Coker',
+            rating: '3.0'
+        },
+        {
+            id: '12',
+            name: 'CS 271',
+            professor: 'Paris Kalathas',
+            rating: '1.0'
+        },
+        {
+            id: '13',
+            name: 'CS 162',
+            professor: 'Brandilyn Coker',
+            rating: '3.0'
+        },
+        {
+            id: '14',
+            name: 'CS 271',
+            professor: 'Paris Kalathas',
+            rating: '1.0'
+        },
+        {
+            id: '15',
+            name: 'CS 162',
+            professor: 'Brandilyn Coker',
+            rating: '3.0'
         }
     ];
 
@@ -51,17 +129,19 @@ export default function Searchbox() {
                 value={searchValue}
                 onChange={(e) => handleChange(e)}
             />
-            {searchValue.length > 0 &&
-                dataShown.map(data =>
-                    <div className="searchResult" key={data.id} onClick={() => handleSelect(data)}>
-                        <div className="searchResultColumn">
-                            <div className="searchResultProfessor">{data.professor}</div>
-                            <div className="searchResultName">{data.name}</div>
+            <div className="searchResultParent">
+                {searchValue.length > 0 &&
+                    dataShown.map((data) =>
+                        <div className="searchResult" key={data.id} onClick={() => handleSelect(data)} style={{bottom: 'calc(auto - 50px)'}}>
+                            <div className="searchResultColumn">
+                                <div className="searchResultProfessor">{data.professor}</div>
+                                <div className="searchResultName">{data.name}</div>
+                            </div>
+                            <div className="searchResultRating">{data.rating}</div>
                         </div>
-                        <div className="searchResultRating">{data.rating}</div>
-                    </div>
-                )
-            }
+                    )
+                }
+            </div>
         </div>
     )
 }
