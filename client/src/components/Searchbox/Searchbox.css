@@ -9,14 +9,17 @@
 }
 
 .searchResultParent {
-      display: flex;
-      flex-direction: column;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+    overflow: auto;
 }
 
 .searchResult:hover {
     background: #d8d8d8;
 }
-  
+
 .searchResult {
     display: flex;
     justify-content: center;
